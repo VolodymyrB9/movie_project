@@ -7,12 +7,12 @@ interface IProps {
     movie: IMovie
 }
 const MovieListCard: FC<IProps> = ({movie}) => {
-    const {original_title} = movie;
+    const { title} = movie;
     return (
         <div>
             <PosterPreviews />
             <StarsRating />
-            <p>{original_title}</p>
+            <p>{title}</p>
         </div>
     );
 };
