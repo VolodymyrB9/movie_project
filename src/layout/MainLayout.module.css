@@ -1,0 +1,9 @@
+.wrap{
+    max-width: 80rem;
+}
+.dark {
+    background-color: darkslategray;
+}
+.light{
+    background-color: #ffff;
+}

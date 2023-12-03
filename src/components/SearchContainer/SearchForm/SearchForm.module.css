@@ -1,0 +1,29 @@
+
+.Input{
+    height: 2em;
+    border-radius: 5px;
+    margin: 0 15px 0 0;
+    width: 20vw;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    margin-bottom: 8px;
+}
+
+.Button {
+    padding: 0 25px;
+    border-radius: 4px;
+    height: 2em;
+    font-size: 1.1em;
+    color: #ffffff;
+    background-color: #5400a6;
+    cursor: pointer;
+}
+
+.Button:hover {
+    background-color: #4e4eef;
+}

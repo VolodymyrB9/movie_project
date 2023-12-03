@@ -1,0 +1,37 @@
+
+.title {
+    font-size: 4em;
+}
+
+.text {
+    display: flex;
+    gap: 1em;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    color: black;
+}
+
+.wrap {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+p {
+    margin: 1rem;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: #4e4eef;
+}
+
+

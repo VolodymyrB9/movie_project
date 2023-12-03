@@ -1,0 +1,34 @@
+
+.Header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 40px;
+    background-color: #4e4eef;
+    color: snow;
+    height: 50px;
+}
+
+.Header a{
+    cursor: pointer;
+    text-decoration: none;
+    color: snow;
+    margin: 0 5px;
+}
+.Header a:hover {
+    color: #5400a6;
+}
+
+.Header a[class='active']{
+    color: #ff5959;
+}
+
+.Image {
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+.theme{
+    margin-right: 10px;
+}

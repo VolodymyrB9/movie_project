@@ -1,0 +1,23 @@
+
+.Wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Button{
+    border-radius: 50px;
+    padding: 1em;
+}
+
+.Button_container{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.Page_number{
+    padding: 1em;
+    border: 1px solid black;
+    border-radius: 50px;
+}
